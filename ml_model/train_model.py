@@ -5,6 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 import pickle
 
+
 data = pd.read_csv("sms.tsv", sep="\t", header=None, names=["label", "message"])
 
 data['label'] = data['label'].map({'ham': 0, 'spam': 1})
