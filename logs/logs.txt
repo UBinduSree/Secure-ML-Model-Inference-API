@@ -2,3 +2,20 @@
 2026-03-08 12:29:02.319627 | Message: Win a free Internship | Prediction: Spam
 2026-03-08 12:44:13.707261 | User:admin | Message:Win a free lottery | Prediction:Spam
 2026-03-08 12:44:42.773360 | User:admin | Message:I am in Library | Prediction:Not Spam
+2026-03-15 14:27:11.352889 | User:Bindu Sree | Message:Win free tickets for movie | Prediction:Spam
+2026-03-15 14:35:05.731696 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 14:35:10.825775 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 14:35:11.315618 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 14:35:47.267853 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 14:36:14.818362 | IP:127.0.0.1 | Endpoint:/register
+2026-03-15 14:36:34.971874 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 14:37:01.262531 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 14:37:29.545204 | User:Chandana | IP:Bearer | Message:you are a person | Prediction:Not Spam
+2026-03-15 14:37:29.530547 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 14:48:34.905635 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 14:48:39.695813 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 14:48:39.950031 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 14:49:01.967863 | IP:127.0.0.1 | Endpoint:/register
+2026-03-15 14:49:17.467670 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 14:50:52.502170 | User:Indu | Message:Win a exciting prizes | Prediction:Spam
+2026-03-15 14:50:52.475399 | IP:127.0.0.1 | Endpoint:/predict
