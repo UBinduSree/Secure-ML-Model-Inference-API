@@ -1,1 +1,4 @@
 
+2026-03-08 12:29:02.319627 | Message: Win a free Internship | Prediction: Spam
+2026-03-08 12:44:13.707261 | User:admin | Message:Win a free lottery | Prediction:Spam
+2026-03-08 12:44:42.773360 | User:admin | Message:I am in Library | Prediction:Not Spam
