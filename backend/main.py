@@ -1,5 +1,4 @@
-
-from unittest import result
+from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException, Depends, Request
@@ -24,6 +23,13 @@ if not os.path.exists("logs"):
     os.makedirs("logs", exist_ok=True)
 app = FastAPI()
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 security = HTTPBearer()
 @app.middleware("http")
 async def log_requests(request: Request, call_next):

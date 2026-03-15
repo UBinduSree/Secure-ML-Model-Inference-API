@@ -19,3 +19,14 @@
 2026-03-15 14:49:17.467670 | IP:127.0.0.1 | Endpoint:/login
 2026-03-15 14:50:52.502170 | User:Indu | Message:Win a exciting prizes | Prediction:Spam
 2026-03-15 14:50:52.475399 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 15:17:22.264952 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 15:17:27.737831 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 15:17:28.112968 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 15:24:17.277190 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 15:24:23.144494 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 15:24:23.423611 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 15:25:33.112631 | IP:127.0.0.1 | Endpoint:/register
+2026-03-15 15:25:45.258584 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 15:26:16.590590 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 15:26:16.840887 | User:Shiva | Message:Win a free lottery | Prediction:Spam
+2026-03-15 15:26:16.612585 | IP:127.0.0.1 | Endpoint:/predict
