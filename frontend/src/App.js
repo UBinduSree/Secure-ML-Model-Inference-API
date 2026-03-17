@@ -1,27 +1,92 @@
-import { useState } from "react";
-import Register from "./components/Register";
-import Login from "./components/Login";
-import SpamDetector from "./components/SpamDetector";
-import "./index.css";
+import { useState, useEffect } from "react"
+
+import Welcome from "./components/Welcome"
+import Register from "./components/Register"
+import Login from "./components/Login"
+import Dashboard from "./components/Dashboard"
+import SpamDetector from "./components/SpamDetector"
+
+import "./index.css"
 
 function App(){
 
-const [token,setToken] = useState("");
+const [page,setPage] = useState("welcome")
+const [token,setToken] = useState("")
+const [role,setRole] = useState("")
+
+// ✅ Load token + role from localStorage (important after refresh)
+useEffect(()=>{
+  const savedToken = localStorage.getItem("token")
+  const savedRole = localStorage.getItem("role")
+
+  if(savedToken){
+    setToken(savedToken)
+    setRole(savedRole || "user")
+    setPage(savedRole === "admin" ? "analytics" : "detector")
+  }
+},[])
+
+
+// 🔹 Public Pages
+if(page==="welcome")
+return <Welcome setPage={setPage}/>
+
+if(page==="register")
+return <Register setPage={setPage}/>
+
+if(page==="login")
+return <Login setPage={setPage} setToken={setToken} setRole={setRole}/>
+
+
+// 🔹 Protected Layout
+if(token){
 
 return(
 
-<div className="container">
+<div className="layout">
 
-<h1>AI Spam Detection System</h1>
+<div className="sidebar">
 
-{!token && (
+<h2>AI System</h2>
+
+{/* USER → only detector */}
+{role === "user" && (
+<button onClick={()=>setPage("detector")}>
+Spam Detector
+</button>
+)}
+
+{/* ADMIN → both options */}
+{role === "admin" && (
 <>
-<Register/>
-<Login setToken={setToken}/>
+<button onClick={()=>setPage("detector")}>
+Spam Detector
+</button>
+
+<button onClick={()=>setPage("analytics")}>
+AI Analytics
+</button>
 </>
 )}
 
-{token && <SpamDetector token={token}/>}
+<button onClick={()=>{
+localStorage.clear()
+setToken("")
+setRole("")
+setPage("welcome")
+}}>
+Logout
+</button>
+
+</div>
+
+<div className="main">
+
+{page==="detector" && <SpamDetector token={token}/>}
+
+{page==="analytics" && role==="admin" && <Dashboard/>}
+
+</div>
 
 </div>
 
@@ -29,4 +94,6 @@ return(
 
 }
 
-export default App;
+}
+
+export default App

@@ -30,3 +30,147 @@
 2026-03-15 15:26:16.590590 | IP:127.0.0.1 | Endpoint:/predict
 2026-03-15 15:26:16.840887 | User:Shiva | Message:Win a free lottery | Prediction:Spam
 2026-03-15 15:26:16.612585 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:43:14.947059 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 23:43:15.528208 | IP:127.0.0.1 | Endpoint:/favicon.ico
+2026-03-15 23:43:15.857798 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 23:43:23.103482 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 23:43:23.692782 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 23:43:40.254581 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 23:43:42.647524 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:43:42.660315 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:43:56.263566 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:43:56.291837 | User:Shiva | Message:hello | Prediction:Not Spam
+2026-03-15 23:43:56.270511 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:50:28.469641 | IP:127.0.0.1 | Endpoint:/
+2026-03-15 23:50:34.669060 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-15 23:50:35.186608 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-15 23:51:59.209923 | IP:127.0.0.1 | Endpoint:/register
+2026-03-15 23:52:04.959782 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 23:52:05.347385 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:52:05.358965 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:52:34.558641 | User:Bhagya | Message:Free worth 1000 | Prediction:Spam
+2026-03-15 23:52:34.535056 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:55:17.496397 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:59:03.605119 | IP:127.0.0.1 | Endpoint:/login
+2026-03-15 23:59:04.203979 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:59:04.214962 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-15 23:59:11.834575 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:59:11.990448 | User:Bhagya | Message:run | Prediction:Not Spam
+2026-03-15 23:59:11.858397 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-15 23:59:12.013520 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-16 00:05:04.015469 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:05:37.676006 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
+2026-03-16 00:05:37.567079 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:05:48.135877 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
+2026-03-16 00:05:48.125801 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:05:51.305118 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-16 00:05:51.688236 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-16 00:05:54.168813 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
+2026-03-16 00:05:54.161732 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:05:56.913410 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-16 00:05:56.934453 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-16 00:06:13.910015 | User:Bhagya | Message:I am good | Prediction:Not Spam
+2026-03-16 00:06:13.900376 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:10:01.416898 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-16 00:10:02.714889 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-16 00:10:35.399701 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.398690 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:10:35.399701 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:11:03.584023 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-16 00:11:04.225345 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-16 00:11:29.230508 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:11:29.229490 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:11:29.230508 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:12:11.782820 | IP:127.0.0.1 | Endpoint:/
+2026-03-16 00:12:12.955438 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-16 00:12:13.516147 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-16 00:12:52.306535 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:13:04.635685 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:13:05.232809 | User:Bhagya | Message:hey | Prediction:Not Spam
+2026-03-16 00:13:04.671237 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-16 00:21:39.465825 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:21:39.524434 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:21:48.613322 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:21:52.781502 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:21:54.958261 | IP:127.0.0.1 | Endpoint:/login
+2026-03-16 00:22:27.247765 | IP:127.0.0.1 | Endpoint:/
+2026-03-16 00:22:42.911176 | IP:127.0.0.1 | Endpoint:/
+2026-03-16 00:22:58.042581 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-16 00:22:58.285314 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-16 00:23:28.419486 | IP:127.0.0.1 | Endpoint:/register
+2026-03-16 00:23:28.431515 | IP:127.0.0.1 | Endpoint:/register
+2026-03-16 00:24:24.156337 | IP:127.0.0.1 | Endpoint:/register
+2026-03-16 00:27:04.497897 | IP:127.0.0.1 | Endpoint:/register
+2026-03-16 00:27:11.879793 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 15:47:19.464318 | IP:127.0.0.1 | Endpoint:/
+2026-03-17 15:47:19.780377 | IP:127.0.0.1 | Endpoint:/favicon.ico
+2026-03-17 15:47:49.321145 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 15:47:49.332359 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 16:00:16.137031 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:00:16.152560 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:02:51.130745 | IP:127.0.0.1 | Endpoint:/
+2026-03-17 16:02:55.702712 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-17 16:02:56.162676 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-17 16:03:35.526437 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 16:03:35.536950 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 16:03:54.543920 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:04:13.100524 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:04:13.142579 | User:Rajitha | Message:Be aware of Spam | Prediction:Not Spam
+2026-03-17 16:04:13.107529 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:04:21.054339 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:04:21.064340 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:09:54.072638 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:10:54.950524 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:10:54.969134 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 16:10:56.613846 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:10:56.634126 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:11:02.344567 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:11:02.357591 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:11:20.526111 | User:Rajitha | Message:This is Sam from Hyderabad | Prediction:Not Spam
+2026-03-17 16:11:20.324162 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:17:23.882044 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:17:24.178043 | User:Rajitha | Message:Spam is free ,enjoy it | Prediction:Not Spam
+2026-03-17 16:17:23.973044 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:17:33.753975 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:17:33.777533 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:17:33.825212 | User:Rajitha | Message:Spam is free ,enjoy it | Prediction:Not Spam
+2026-03-17 16:17:33.753975 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:17:45.227270 | User:Rajitha | Message:Spam is free, enjoy it | Prediction:Not Spam
+2026-03-17 16:17:45.222152 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 16:17:50.926872 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:17:50.935866 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 16:18:00.926595 | User:Rajitha | Message:Good | Prediction:Not Spam
+2026-03-17 16:18:00.920968 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 20:09:32.505584 | IP:127.0.0.1 | Endpoint:/
+2026-03-17 20:09:38.714571 | IP:127.0.0.1 | Endpoint:/docs
+2026-03-17 20:09:39.041696 | IP:127.0.0.1 | Endpoint:/openapi.json
+2026-03-17 20:10:35.185926 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 20:10:35.193927 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 20:10:43.134863 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 20:10:43.141877 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 20:11:33.189836 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 20:11:33.250953 | User:Shiva Reddy | Message:Welcome to the party! | Prediction:Not Spam
+2026-03-17 20:11:33.196387 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 20:12:04.927863 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 20:12:10.932179 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 20:12:18.736274 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 20:12:18.757795 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 20:12:25.788866 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 20:12:25.800457 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 21:12:35.314262 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 21:12:35.407514 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 21:12:36.830537 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 21:12:36.848344 | IP:127.0.0.1 | Endpoint:/stats
+2026-03-17 21:12:53.764188 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 21:12:53.794728 | IP:127.0.0.1 | Endpoint:/register
+2026-03-17 21:12:58.470075 | IP:127.0.0.1 | Endpoint:/login
+2026-03-17 21:13:10.964278 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 21:13:11.164822 | User:Deepthi | Message:Freee | Prediction:Not Spam
+2026-03-17 21:13:10.987206 | IP:127.0.0.1 | Endpoint:/predict
+2026-03-17 21:13:18.247836 | User:Deepthi | Message:Free | Prediction:Spam
+2026-03-17 21:13:18.231241 | IP:127.0.0.1 | Endpoint:/predict

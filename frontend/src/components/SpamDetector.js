@@ -1,51 +1,59 @@
 import axios from "axios";
 import { useState } from "react";
 
-function SpamDetector({token}){
+function SpamDetector({token,onPredict}){
 
 const [message,setMessage] = useState("");
 const [result,setResult] = useState("");
 
 const predict = async () => {
 
-try{
+try {
 
 const res = await axios.post(
 "http://127.0.0.1:8000/predict",
-{message:message},
+{ message: message },
 {
 headers:{
-Authorization:"Bearer "+token
+Authorization: "Bearer " + token
 }
 }
-);
-
-setResult(res.data.prediction + " (" + res.data.confidence + ")");
+)
+console.log(token)
+setResult(res.data.prediction + " (" + res.data.confidence + ")")
 
 }
-
 catch(error){
 
-setResult("Error connecting to AI server");
+console.log(error)
+setResult("Error connecting to AI server")
 
 }
 
 }
-
 return(
 
-<div className="card">
+<div className="detector-container">
+
+<div className="detector-card">
 
 <h2>Spam Detector</h2>
 
 <textarea
-placeholder="Enter message"
+placeholder="Enter message..."
+value={message}
 onChange={(e)=>setMessage(e.target.value)}
-></textarea>
+/>
 
-<button onClick={predict}>Analyze</button>
+<button onClick={predict}>
+Analyze Message
+</button>
 
-<h3 className="result">{result}</h3>
+<div className={`result-card ${result.includes("Spam") ? "spam" : "safe"}`}>
+<h3>{result}</h3>
+</div>
+
+</div>
 
 </div>
 
