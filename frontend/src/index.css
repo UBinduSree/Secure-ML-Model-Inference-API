@@ -195,6 +195,10 @@ height:100vh;
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: white;
   color: #1e293b;
   padding: 15px 30px;
@@ -202,11 +206,12 @@ height:100vh;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #e2e8f0;
+  z-index: 1000;
 }
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   align-items: center;
 }
@@ -219,6 +224,8 @@ height:100vh;
 }
 
 .header button {
+  margin-left: auto;
+  margin-right: 30px;
   background: #f1f5f9;
   color: #475569;
   border: 1px solid #e2e8f0;
@@ -235,14 +242,22 @@ height:100vh;
 .content {
   display: flex;
   flex: 1;
+  margin-top: 60px;
+  margin-left: 260px;
 }
 .sidebar {
+  position: fixed;
+  top: 60px;
+  left: 0;
   width: 260px;
+  height: calc(100vh - 60px);
   background: #1e293b;
   color: #f1f5f9;
   display: flex;
   flex-direction: column;
   padding: 30px 20px;
+  z-index: 999;
+  overflow-y: auto;
 }
 
 .sidebar h2 {
@@ -460,17 +475,17 @@ tr.request {
 
 .logs-table th {
   background: #f8fafc;
-  padding: 15px;
+  padding: 12px;
   color: #475569;
   font-size: 13px;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   border-bottom: 2px solid #e2e8f0;
 }
 
 .logs-table td {
-  padding: 15px;
-  text-align: left;
+  padding: 12px;
+  text-align: center;
   border-bottom: 1px solid #f1f5f9;
   font-size: 14px;
   color: #334155;
@@ -556,20 +571,22 @@ tr.request {
 }
 
 .users-table {
-  width: 100%;
+  width: 90%;
   border-collapse: collapse;
   margin-top: 10px;
+  margin: 10px auto;
 }
 
 .users-table th {
   background: #e2e8f0;
-  padding: 14px;
+  padding: 10px;
   color: #334155;
   font-weight: 600;
+  text-align: center;
 }
 
 .users-table td {
-  padding: 14px;
+  padding: 10px;
   text-align: center;
   border-bottom: 1px solid #e5e7eb;
   color: #1e293b;

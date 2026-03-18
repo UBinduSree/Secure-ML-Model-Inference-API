@@ -151,7 +151,7 @@ def verify_token(credentials: HTTPAuthorizationCredentials = Depends(security)):
 
 # ✅ PREDICT (SECURE)
 @app.post("/predict")
-def predict(data: MessageRequest, user=Depends(verify_token)):
+def predict(data: MessageRequest, request: Request, user=Depends(verify_token)):
 
     message = data.message.strip()
 
@@ -178,6 +178,7 @@ def predict(data: MessageRequest, user=Depends(verify_token)):
     "time": str(datetime.datetime.now()),
     "type": "prediction",
     "user": username,
+    "ip": request.client.host,
     "message": message,
     "result": result,
     "confidence": confidence

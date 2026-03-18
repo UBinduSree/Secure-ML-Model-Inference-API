@@ -52,26 +52,30 @@ return (
         <table className="logs-table">
           <thead>
             <tr>
-              <th>🕒 Time</th>
+              <th>🕒 Timestamp</th>
+              <th>👤 User</th>
+              <th>🌐 IP Address</th>
               <th>📋 Type</th>
-              <th>👤 User / 🌐 IP</th>
               <th>📝 Details</th>
+              <th>📊 Confidence</th>
             </tr>
           </thead>
 
           <tbody>
             {currentLogs.map((log, index) => (
               <tr key={index}>
-                <td>{log.time.split(" ")[1]}</td>
+                <td>{log.time}</td>
+                <td>{log.user || (log.type === "request" ? "System" : "N/A")}</td>
+                <td>{log.ip || "Unknown"}</td>
                 <td className={log.type === "prediction" ? "ai" : "req"}>
                   {log.type === "prediction" ? "🤖 AI Prediction" : "🌐 API Request"}
                 </td>
-                <td>{log.user || log.ip}</td>
                 <td>
                   {log.type === "prediction"
-                    ? `Result: ${log.result} (${log.confidence}%)`
+                    ? `Result: ${log.result}`
                     : `Endpoint: ${log.endpoint}`}
                 </td>
+                <td>{log.type === "prediction" ? `${log.confidence}%` : "N/A"}</td>
               </tr>
             ))}
           </tbody>
