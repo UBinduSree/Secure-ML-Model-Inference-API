@@ -1,77 +1,100 @@
 import { useState } from "react"
 import axios from "axios"
 
-function Register({setPage}){
+function Register({ setPage }) {
 
-const [username,setUsername] = useState("")
-const [password,setPassword] = useState("")
-const [role,setRole] = useState("user")   // ✅ NEW
-const [msg,setMsg] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [confirmPassword, setConfirmPassword] = useState("")
+  const [error, setError] = useState("")
+  const [strength, setStrength] = useState("")
 
-const register = async()=>{
+  // 🔐 Password Strength Checker
+  const checkStrength = (pass) => {
+    let score = 0
 
-try{
+    if (pass.length >= 8) score++
+    if (/[A-Z]/.test(pass)) score++
+    if (/[0-9]/.test(pass)) score++
+    if (/[^A-Za-z0-9]/.test(pass)) score++
 
-await axios.post(
-"http://127.0.0.1:8000/register",
-{
-username: username,
-password: password,
-role: role   // ✅ SEND ROLE
-}
-)
+    if (score <= 1) return "Weak"
+    if (score === 2 || score === 3) return "Medium"
+    return "Strong"
+  }
 
-setMsg("Account created successfully!")
+  const handlePassword = (value) => {
+    setPassword(value)
+    setStrength(checkStrength(value))
+  }
 
-setTimeout(()=>{
-setPage("login")
-},1500)
+  const register = async () => {
 
-}catch(error){
+    if (password !== confirmPassword) {
+      setError("Passwords do not match")
+      return
+    }
 
-console.log(error.response)
+    if (strength === "Weak") {
+      setError("Password is too weak")
+      return
+    }
 
-setMsg("Registration failed")
+    try {
+      await axios.post("http://127.0.0.1:8000/register", {
+        username: email,
+        password: password
+      })
 
-}
+      alert("Registration successful!")
+      setPage("login")
 
-}
+    } catch (err) {
+      setError("Registration failed")
+    }
+  }
 
-return(
+  return (
+    <div className="auth-container">
 
-<div className="auth-card">
+      <div className="auth-card">
 
-<h2>Create Account</h2>
+        <h2>Create Account</h2>
 
-<input
-placeholder="Username"
-onChange={(e)=>setUsername(e.target.value)}
-/>
+        <input
+          type="email"
+          placeholder="Enter Email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-<input
-type="password"
-placeholder="Password"
-onChange={(e)=>setPassword(e.target.value)}
-/>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          onChange={(e) => handlePassword(e.target.value)}
+        />
 
-{/* ✅ ROLE DROPDOWN */}
-<select onChange={(e)=>setRole(e.target.value)}>
+       <p className={`strength ${strength ? strength.toLowerCase() : ""}`}>
+          Strength: {strength}
+        </p>
 
-<option value="user">User</option>
-<option value="admin">Admin</option>
+        <input
+          type="password"
+          placeholder="Confirm Password"
+          onChange={(e) => setConfirmPassword(e.target.value)}
+        />
 
-</select>
+        {error && <p className="error">{error}</p>}
 
-<button onClick={register}>
-Register
-</button>
+        <button onClick={register}>Register</button>
 
-<p>{msg}</p>
+        <p onClick={() => setPage("login")} className="link">
+          Already have an account? Login
+        </p>
 
-</div>
+      </div>
 
-)
-
+    </div>
+  )
 }
 
 export default Register

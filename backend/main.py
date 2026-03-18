@@ -10,6 +10,7 @@ from auth.auth import hash_password, verify_password
 import pickle
 import datetime
 import os
+import json
 from jose import jwt, JWTError
 
 # ------------------ MODELS ------------------
@@ -20,7 +21,6 @@ class MessageRequest(BaseModel):
 class RegisterRequest(BaseModel):
     username: str
     password: str
-    role: str = "user"
 
 class LoginRequest(BaseModel):
     username: str
@@ -61,10 +61,17 @@ async def log_requests(request: Request, call_next):
 
     response = await call_next(request)
 
-    log = f"{time} | IP:{ip} | Endpoint:{endpoint}\n"
+ 
+
+    log_data = {
+    "time": str(time),
+    "type": "request",
+    "ip": ip,
+    "endpoint": endpoint
+    }
 
     with open("logs/logs.txt", "a") as f:
-        f.write(log)
+        f.write(json.dumps(log_data) + "\n")
 
     return response
 
@@ -92,9 +99,6 @@ def home():
 @app.post("/register")
 def register(data: RegisterRequest, db: Session = Depends(get_db)):
 
-    if data.role.lower() not in ["user", "admin"]:
-        raise HTTPException(status_code=400, detail="Invalid role")
-
     existing_user = db.query(models.User).filter(models.User.username == data.username).first()
 
     if existing_user:
@@ -103,7 +107,7 @@ def register(data: RegisterRequest, db: Session = Depends(get_db)):
     user = models.User(
         username=data.username,
         password=hash_password(data.password),
-        role=data.role.lower()
+        role="user"
     )
 
     db.add(user)
@@ -131,7 +135,8 @@ def login(data: LoginRequest, db: Session = Depends(get_db)):
 
     return {
         "access_token": access_token,
-        "token_type": "bearer"
+        "token_type": "bearer",
+        "role": user.role
     }
 
 # ✅ VERIFY TOKEN (REUSABLE)
@@ -169,10 +174,17 @@ def predict(data: MessageRequest, user=Depends(verify_token)):
     else:
         safe_count += 1
 
-    log = f"{datetime.datetime.now()} | User:{username} | Message:{message} | Prediction:{result}\n"
+    log_data = {
+    "time": str(datetime.datetime.now()),
+    "type": "prediction",
+    "user": username,
+    "message": message,
+    "result": result,
+    "confidence": confidence
+}
 
     with open("logs/logs.txt", "a") as f:
-        f.write(log)
+        f.write(json.dumps(log_data) + "\n")
 
     return {
         "user": username,
@@ -180,7 +192,35 @@ def predict(data: MessageRequest, user=Depends(verify_token)):
         "prediction": result,
         "confidence": f"{confidence}%"
     }
+#users
+@app.get("/users")
+def get_users(user=Depends(verify_token), db: Session = Depends(get_db)):
 
+    if user["role"] != "admin":
+        raise HTTPException(status_code=403, detail="Access denied")
+
+    users = db.query(models.User).all()
+
+    return [
+        {"username": u.username, "role": u.role}
+        for u in users
+    ]
+#delette
+@app.delete("/delete_user/{username}")
+def delete_user(username: str, user=Depends(verify_token), db: Session = Depends(get_db)):
+
+    if user["role"] != "admin":
+        raise HTTPException(status_code=403, detail="Access denied")
+
+    db_user = db.query(models.User).filter(models.User.username == username).first()
+
+    if not db_user:
+        raise HTTPException(status_code=404, detail="User not found")
+
+    db.delete(db_user)
+    db.commit()
+
+    return {"message": f"{username} deleted"}
 # ✅ HEALTH CHECK
 @app.get("/health")
 def health_check():
@@ -190,17 +230,68 @@ def health_check():
 @app.get("/stats")
 def get_stats(user=Depends(verify_token)):
 
+    username = user["sub"]
+
+    logs = []
+
+    # Read logs file
+    with open("logs/logs.txt", "r") as f:
+        for line in f:
+            try:
+                log = json.loads(line.strip())
+                if log.get("type") == "prediction" and log.get("user") == username:
+                    logs.append(log)
+            except:
+                pass
+
+    total = len(logs)
+    spam = len([l for l in logs if l["result"] == "Spam"])
+    safe = len([l for l in logs if l["result"] == "Not Spam"])
+
+    return {
+        "total": total,
+        "spam": spam,
+        "safe": safe,
+
+        # 👇 THIS IS WHERE YOUR CODE GOES
+        "history": [
+            {
+                "message": l["message"],
+                "result": l["result"],
+                "confidence": l["confidence"]
+            }
+            for l in logs
+        ]
+    }
+    
+#/logs
+@app.get("/logs")
+def get_logs(user=Depends(verify_token)):
+
+    # 🔐 Only admin allowed
     if user["role"] != "admin":
         raise HTTPException(status_code=403, detail="Access denied")
 
-    spam_rate = 0
+    try:
+        with open("logs/logs.txt", "r") as f:
+            lines = f.readlines()
 
-    if total_messages > 0:
-        spam_rate = round((spam_count / total_messages) * 100, 2)
+        # Parse only valid JSON lines
+        logs = []
+        for line in lines:
+            line = line.strip()
+            if line:
+                try:
+                    log_entry = json.loads(line)
+                    logs.append(log_entry)
+                except json.JSONDecodeError:
+                    # Skip invalid JSON lines (old format logs)
+                    continue
 
-    return {
-        "total_messages": total_messages,
-        "spam_detected": spam_count,
-        "safe_messages": safe_count,
-        "spam_rate": f"{spam_rate}%"
-    }
+        # return last 20 logs (latest activity)
+        return {
+            "logs": logs[-20:]
+        }
+
+    except FileNotFoundError:
+        return {"logs": []}

@@ -1,79 +1,90 @@
-import {useState} from "react"
+import { useState } from "react"
 import axios from "axios"
 
-function Login({setPage,setToken}){
+function Login({ setPage, setToken, setRole }) {
 
-const [username,setUsername] = useState("")
-const [password,setPassword] = useState("")
-const [msg,setMsg] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [error, setError] = useState("")
+  const [loading, setLoading] = useState(false)
+  const [showPassword, setShowPassword] = useState(false)
 
-const login = async()=>{
+  const login = async () => {
 
-try{
+    if (!email || !password) {
+      setError("Please fill all fields")
+      return
+    }
 
-const res = await axios.post(
-"http://127.0.0.1:8000/login",
-{
-  username,
-  password
-}
-)
+    setLoading(true)
+    setError("")
 
-const token = res.data.access_token
+    try {
+      const res = await axios.post("http://127.0.0.1:8000/login", {
+        username: email,
+        password: password
+      })
 
-// Decode token
-const payload = JSON.parse(atob(token.split('.')[1]))
+      const role = (res.data.role || "user").toLowerCase()
 
-localStorage.setItem("token", token)
-localStorage.setItem("role", payload.role)
+      // ✅ Save properly
+      localStorage.setItem("token", res.data.access_token)
+      localStorage.setItem("role", role)
 
-// Redirect
-if(payload.role === "admin"){
-    setPage("admin")
-}else{
-    setPage("dashboard")
-}
-// ✅ FORCE UI REFRESH (fix blank screen)
-window.location.reload()
-}catch(error){
+      setToken(res.data.access_token)
+      setRole(role)
 
-console.log(error)
+      // ✅ redirect
+      setPage(role === "admin" ? "logs" : "spam")
 
-setMsg("Invalid credentials or server error")
+    } catch (err) {
+      console.log(err)
+      setError("Invalid email or password")
+    }
 
-}
+    setLoading(false)
+  }
 
-}
+  return (
+    <div className="auth-container">
 
-return(
+      <div className="auth-card">
 
-<div className="auth-card">
+        <h2>Welcome Back 👋</h2>
 
-<h2>Login</h2>
+        <input
+          type="email"
+          placeholder="Enter Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
 
-<input
-placeholder="Username"
-value={username}
-onChange={(e)=>setUsername(e.target.value)}
-/>
+        <div className="password-box">
+          <input
+            type={showPassword ? "text" : "password"}
+            placeholder="Enter Password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+          <span onClick={() => setShowPassword(!showPassword)}>
+            {showPassword ? "🙈" : "👁️"}
+          </span>
+        </div>
 
-<input
-type="password"
-placeholder="Password"
-value={password}
-onChange={(e)=>setPassword(e.target.value)}
-/>
+        {error && <p className="error">{error}</p>}
 
-<button onClick={login}>
-Login
-</button>
+        <button onClick={login} disabled={loading}>
+          {loading ? "Logging in..." : "Login"}
+        </button>
 
-<p>{msg}</p>
+        <p onClick={() => setPage("register")} className="link">
+          Don't have an account? Register
+        </p>
 
-</div>
+      </div>
 
-)
-
+    </div>
+  )
 }
 
 export default Login

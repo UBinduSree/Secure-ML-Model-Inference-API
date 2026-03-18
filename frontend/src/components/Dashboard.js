@@ -1,69 +1,89 @@
-import {useEffect,useState} from "react"
+import { useEffect, useState } from "react"
 import axios from "axios"
 
-function Dashboard({refresh}){
+function Dashboard({ token }) {
 
-const [stats,setStats] = useState({
-total_messages:0,
-spam_detected:0,
-safe_messages:0,
-spam_rate:"0%"
-})
+  const [data, setData] = useState(null)
 
-const fetchStats = async()=>{
+  useEffect(() => {
+    fetchStats()
+  }, [])
 
-try{
+  const fetchStats = async () => {
+    try {
+      const res = await axios.get(
+        "http://127.0.0.1:8000/stats",
+        {
+          headers: {
+            Authorization: `Bearer ${token}`
+          }
+        }
+      )
+      setData(res.data)
+    } catch (err) {
+      console.log("Stats fetch failed", err)
+    }
+  }
 
-const res = await axios.get("http://127.0.0.1:8000/stats")
+  if (!data) return <p>Loading...</p>
 
-setStats(res.data)
+  return (
+    <div className="dashboard-wrapper">
 
-}catch{
-console.log("Stats fetch failed")
-}
+      {/* 🔥 TOP CARDS */}
+      <div className="cards">
 
-}
+        <div className="card total">
+          <h3>Total Checked</h3>
+          <p>{data.total}</p>
+        </div>
 
-useEffect(()=>{
+        <div className="card spam">
+          <h3>Spam</h3>
+          <p>{data.spam}</p>
+        </div>
 
-fetchStats()
+        <div className="card safe">
+          <h3>Not Spam</h3>
+          <p>{data.safe}</p>
+        </div>
 
-},[refresh])
+      </div>
 
-return(
+      {/* 🔥 HISTORY TABLE */}
+      <div className="history-card">
 
-<div className="analytics">
+        <h2>📜 Message History</h2>
 
-<h2 style={{ color: "blue" }}>AI Analytics Dashboard</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Message</th>
+              <th>Result</th>
+              <th>Confidence</th>
+            </tr>
+          </thead>
 
-<div className="stats">
+          <tbody>
+            {data.history.map((item, index) => (
+              <tr key={index}>
+                <td>{item.message}</td>
 
-<div className="card">
-<h3>Total Messages</h3>
-<p>{stats.total_messages}</p>
-</div>
+                <td className={item.result === "Spam" ? "spam-text" : "safe-text"}>
+                  {item.result}
+                </td>
 
-<div className="card">
-<h3>Spam Detected</h3>
-<p>{stats.spam_detected}</p>
-</div>
+                <td>{item.confidence}</td>
+              </tr>
+            ))}
+          </tbody>
 
-<div className="card">
-<h3>Safe Messages</h3>
-<p>{stats.safe_messages}</p>
-</div>
+        </table>
 
-<div className="card">
-<h3>Spam Rate</h3>
-<p>{stats.spam_rate}</p>
-</div>
+      </div>
 
-</div>
-
-</div>
-
-)
-
+    </div>
+  )
 }
 
 export default Dashboard
