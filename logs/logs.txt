@@ -1,636 +1,95 @@
-
-2026-03-08 12:29:02.319627 | Message: Win a free Internship | Prediction: Spam
-2026-03-08 12:44:13.707261 | User:admin | Message:Win a free lottery | Prediction:Spam
-2026-03-08 12:44:42.773360 | User:admin | Message:I am in Library | Prediction:Not Spam
-2026-03-15 14:27:11.352889 | User:Bindu Sree | Message:Win free tickets for movie | Prediction:Spam
-2026-03-15 14:35:05.731696 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 14:35:10.825775 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 14:35:11.315618 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 14:35:47.267853 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 14:36:14.818362 | IP:127.0.0.1 | Endpoint:/register
-2026-03-15 14:36:34.971874 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 14:37:01.262531 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 14:37:29.545204 | User:Chandana | IP:Bearer | Message:you are a person | Prediction:Not Spam
-2026-03-15 14:37:29.530547 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 14:48:34.905635 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 14:48:39.695813 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 14:48:39.950031 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 14:49:01.967863 | IP:127.0.0.1 | Endpoint:/register
-2026-03-15 14:49:17.467670 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 14:50:52.502170 | User:Indu | Message:Win a exciting prizes | Prediction:Spam
-2026-03-15 14:50:52.475399 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 15:17:22.264952 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 15:17:27.737831 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 15:17:28.112968 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 15:24:17.277190 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 15:24:23.144494 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 15:24:23.423611 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 15:25:33.112631 | IP:127.0.0.1 | Endpoint:/register
-2026-03-15 15:25:45.258584 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 15:26:16.590590 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 15:26:16.840887 | User:Shiva | Message:Win a free lottery | Prediction:Spam
-2026-03-15 15:26:16.612585 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:43:14.947059 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 23:43:15.528208 | IP:127.0.0.1 | Endpoint:/favicon.ico
-2026-03-15 23:43:15.857798 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 23:43:23.103482 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 23:43:23.692782 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 23:43:40.254581 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 23:43:42.647524 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:43:42.660315 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:43:56.263566 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:43:56.291837 | User:Shiva | Message:hello | Prediction:Not Spam
-2026-03-15 23:43:56.270511 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:50:28.469641 | IP:127.0.0.1 | Endpoint:/
-2026-03-15 23:50:34.669060 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-15 23:50:35.186608 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-15 23:51:59.209923 | IP:127.0.0.1 | Endpoint:/register
-2026-03-15 23:52:04.959782 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 23:52:05.347385 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:52:05.358965 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:52:34.558641 | User:Bhagya | Message:Free worth 1000 | Prediction:Spam
-2026-03-15 23:52:34.535056 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:55:17.496397 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:59:03.605119 | IP:127.0.0.1 | Endpoint:/login
-2026-03-15 23:59:04.203979 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:59:04.214962 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-15 23:59:11.834575 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:59:11.990448 | User:Bhagya | Message:run | Prediction:Not Spam
-2026-03-15 23:59:11.858397 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-15 23:59:12.013520 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-16 00:05:04.015469 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:05:37.676006 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
-2026-03-16 00:05:37.567079 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:05:48.135877 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
-2026-03-16 00:05:48.125801 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:05:51.305118 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-16 00:05:51.688236 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-16 00:05:54.168813 | User:Bhagya | Message:Enjoy the next 10 days free trail | Prediction:Spam
-2026-03-16 00:05:54.161732 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:05:56.913410 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-16 00:05:56.934453 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-16 00:06:13.910015 | User:Bhagya | Message:I am good | Prediction:Not Spam
-2026-03-16 00:06:13.900376 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:10:01.416898 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-16 00:10:02.714889 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-16 00:10:35.399701 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.398690 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.400699 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:10:35.399701 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:11:03.584023 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-16 00:11:04.225345 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-16 00:11:29.230508 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:11:29.229490 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:11:29.230508 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:12:11.782820 | IP:127.0.0.1 | Endpoint:/
-2026-03-16 00:12:12.955438 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-16 00:12:13.516147 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-16 00:12:52.306535 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:13:04.635685 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:13:05.232809 | User:Bhagya | Message:hey | Prediction:Not Spam
-2026-03-16 00:13:04.671237 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-16 00:21:39.465825 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:21:39.524434 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:21:48.613322 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:21:52.781502 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:21:54.958261 | IP:127.0.0.1 | Endpoint:/login
-2026-03-16 00:22:27.247765 | IP:127.0.0.1 | Endpoint:/
-2026-03-16 00:22:42.911176 | IP:127.0.0.1 | Endpoint:/
-2026-03-16 00:22:58.042581 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-16 00:22:58.285314 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-16 00:23:28.419486 | IP:127.0.0.1 | Endpoint:/register
-2026-03-16 00:23:28.431515 | IP:127.0.0.1 | Endpoint:/register
-2026-03-16 00:24:24.156337 | IP:127.0.0.1 | Endpoint:/register
-2026-03-16 00:27:04.497897 | IP:127.0.0.1 | Endpoint:/register
-2026-03-16 00:27:11.879793 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 15:47:19.464318 | IP:127.0.0.1 | Endpoint:/
-2026-03-17 15:47:19.780377 | IP:127.0.0.1 | Endpoint:/favicon.ico
-2026-03-17 15:47:49.321145 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 15:47:49.332359 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 16:00:16.137031 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:00:16.152560 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:02:51.130745 | IP:127.0.0.1 | Endpoint:/
-2026-03-17 16:02:55.702712 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-17 16:02:56.162676 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-17 16:03:35.526437 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 16:03:35.536950 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 16:03:54.543920 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:04:13.100524 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:04:13.142579 | User:Rajitha | Message:Be aware of Spam | Prediction:Not Spam
-2026-03-17 16:04:13.107529 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:04:21.054339 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:04:21.064340 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:09:54.072638 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:10:54.950524 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:10:54.969134 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 16:10:56.613846 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:10:56.634126 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:11:02.344567 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:11:02.357591 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:11:20.526111 | User:Rajitha | Message:This is Sam from Hyderabad | Prediction:Not Spam
-2026-03-17 16:11:20.324162 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:17:23.882044 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:17:24.178043 | User:Rajitha | Message:Spam is free ,enjoy it | Prediction:Not Spam
-2026-03-17 16:17:23.973044 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:17:33.753975 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:17:33.777533 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:17:33.825212 | User:Rajitha | Message:Spam is free ,enjoy it | Prediction:Not Spam
-2026-03-17 16:17:33.753975 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:17:45.227270 | User:Rajitha | Message:Spam is free, enjoy it | Prediction:Not Spam
-2026-03-17 16:17:45.222152 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 16:17:50.926872 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:17:50.935866 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 16:18:00.926595 | User:Rajitha | Message:Good | Prediction:Not Spam
-2026-03-17 16:18:00.920968 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 20:09:32.505584 | IP:127.0.0.1 | Endpoint:/
-2026-03-17 20:09:38.714571 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-17 20:09:39.041696 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-17 20:10:35.185926 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 20:10:35.193927 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 20:10:43.134863 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 20:10:43.141877 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 20:11:33.189836 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 20:11:33.250953 | User:Shiva Reddy | Message:Welcome to the party! | Prediction:Not Spam
-2026-03-17 20:11:33.196387 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 20:12:04.927863 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 20:12:10.932179 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 20:12:18.736274 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 20:12:18.757795 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 20:12:25.788866 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 20:12:25.800457 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 21:12:35.314262 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:12:35.407514 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:12:36.830537 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 21:12:36.848344 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 21:12:53.764188 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 21:12:53.794728 | IP:127.0.0.1 | Endpoint:/register
-2026-03-17 21:12:58.470075 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:13:10.964278 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 21:13:11.164822 | User:Deepthi | Message:Freee | Prediction:Not Spam
-2026-03-17 21:13:10.987206 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 21:13:18.247836 | User:Deepthi | Message:Free | Prediction:Spam
-2026-03-17 21:13:18.231241 | IP:127.0.0.1 | Endpoint:/predict
-2026-03-17 21:20:57.113219 | IP:127.0.0.1 | Endpoint:/
-2026-03-17 21:21:02.925380 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-17 21:21:03.514004 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-17 21:21:29.032746 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:24:01.145868 | IP:127.0.0.1 | Endpoint:/logs
-2026-03-17 21:24:15.789872 | IP:127.0.0.1 | Endpoint:/logs
-2026-03-17 21:32:31.575531 | IP:127.0.0.1 | Endpoint:/
-2026-03-17 21:32:34.864988 | IP:127.0.0.1 | Endpoint:/docs
-2026-03-17 21:32:35.240052 | IP:127.0.0.1 | Endpoint:/openapi.json
-2026-03-17 21:33:26.033095 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:33:26.050182 | IP:127.0.0.1 | Endpoint:/login
-2026-03-17 21:33:27.472932 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 21:33:27.492775 | IP:127.0.0.1 | Endpoint:/stats
-2026-03-17 21:33:30.515292 | IP:127.0.0.1 | Endpoint:/logs
-2026-03-17 21:33:30.515292 | IP:127.0.0.1 | Endpoint:/logs
-2026-03-17 21:33:30.538568 | IP:127.0.0.1 | Endpoint:/logs
-2026-03-17 21:33:30.602553 | IP:127.0.0.1 | Endpoint:/logs
-{"time": "2026-03-17 21:47:20.246906", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:47:20.309242", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:47:21.918351", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:47:21.931551", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:47:21.946472", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:47:22.495146", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:47:32.185857", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:47:32.237781", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:47:33.900674", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:47:33.949744", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:50:01.557112", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:01.753588", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:12.772590", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:12.786357", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:12.771519", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:50:12.883270", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:50:17.321026", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 21:50:17.334360", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 21:50:31.912871", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 21:50:31.988430", "type": "prediction", "user": "Deepthi", "message": "Get you free service", "result": "Spam", "confidence": 93.01}
-{"time": "2026-03-17 21:50:31.930382", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 21:50:40.385201", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 21:50:41.624153", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:41.652863", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 21:50:44.678088", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 21:50:44.688204", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:35.608494", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:35.778052", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:36.382373", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:36.385372", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:36.428706", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:36.728376", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:38.334080", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:38.350108", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:39.715582", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:39.772725", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:41.733305", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:41.747919", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:00:42.845822", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:00:42.911509", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:40:49.755191", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:40:50.024254", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:41:26.826559", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:41:26.858236", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:41:28.421078", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:41:28.448085", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:44:14.735330", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:44:14.809667", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:44:16.232009", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:44:16.315718", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:45:38.867076", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:45:38.891993", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:45:38.947236", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:45:38.978841", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:45:45.527326", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:45:45.557427", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:08.451076", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:08.470075", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:09.972069", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:10.001288", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:18.860616", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:18.877635", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:20.268581", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:20.293247", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:31.021906", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:31.039251", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:47:32.541346", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:47:32.569962", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:48:27.503729", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:48:27.522875", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:52:56.321485", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:52:56.704904", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:52:58.587207", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:52:58.588219", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:52:58.733902", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:52:58.763981", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:53:02.777722", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 22:53:02.789871", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 22:53:04.305538", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:53:04.341809", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:53:05.630515", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:53:05.724481", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:54:17.073919", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:54:17.091010", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:54:44.961809", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 22:54:46.430439", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:54:46.450268", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 22:54:47.772966", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:54:47.814768", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 22:59:51.649487", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-17 22:59:51.926300", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-17 23:00:19.940263", "type": "request", "ip": "127.0.0.1", "endpoint": "/"}
-{"time": "2026-03-17 23:00:24.421383", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-17 23:00:24.758673", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-17 23:00:59.887680", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:01:30.056471", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:01:57.899810", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Deepthi"}
-{"time": "2026-03-17 23:04:05.596430", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:04:05.707768", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:05:46.401757", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:05:46.563021", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:05:47.454347", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:05:47.461343", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:05:47.484348", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:05:47.731525", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:05:58.767307", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Shiva Reddy"}
-{"time": "2026-03-17 23:05:59.123712", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Shiva Reddy"}
-{"time": "2026-03-17 23:05:59.291919", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:06:37.177406", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-17 23:06:37.192322", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-17 23:06:40.932674", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:06:40.939762", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:06:46.468363", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:06:46.615513", "type": "prediction", "user": "Shiva", "message": "Cute", "result": "Not Spam", "confidence": 95.08}
-{"time": "2026-03-17 23:06:46.475216", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:07:03.117213", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-17 23:07:06.041758", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:07:12.272012", "type": "prediction", "user": "Deepthi", "message": "FRee", "result": "Spam", "confidence": 59.43}
-{"time": "2026-03-17 23:07:12.261947", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:07:18.840004", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:07:19.322650", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:07:19.340059", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:07:21.377331", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:07:21.397993", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:22:11.198887", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:22:11.458766", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:24:49.391270", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:24:49.408237", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:24:49.490204", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:24:49.711124", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:24:56.613538", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:24:56.752214", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:24:59.850839", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:24:59.909396", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:25:02.351211", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:25:02.384838", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:26:32.567057", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:26:32.699257", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:26:51.378552", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:26:51.415482", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:26:52.538063", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:26:52.589725", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:20.626684", "type": "request", "ip": "127.0.0.1", "endpoint": "/"}
-{"time": "2026-03-17 23:44:27.986952", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-17 23:44:28.432682", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-17 23:44:39.763344", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:39.768783", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:39.776382", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:39.929850", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:41.501320", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:44:41.502268", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:44:41.519342", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:44:41.551653", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:44:54.297317", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:44:54.309313", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:44:57.910365", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:44:57.991752", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-17 23:45:02.429651", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:45:02.460638", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-17 23:45:17.181755", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:45:21.154303", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:45:21.170078", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:45:29.580468", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:45:29.593157", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:46:16.416354", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:49:49.600974", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:49:57.858405", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:51:07.965977", "type": "request", "ip": "127.0.0.1", "endpoint": "/"}
-{"time": "2026-03-17 23:51:24.310841", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-17 23:51:24.560097", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-17 23:51:33.484418", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-17 23:51:40.036396", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:51:41.988831", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:51:41.998835", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:54:08.157373", "type": "prediction", "user": "Deepthi", "message": "hey", "result": "Not Spam", "confidence": 98.11}
-{"time": "2026-03-17 23:54:07.640617", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-17 23:54:10.065619", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:54:10.077749", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:54:14.954463", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-17 23:54:15.702932", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 00:01:56.086124", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 00:02:07.373900", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 00:02:07.580910", "type": "prediction", "user": "Deepthi", "message": "hey", "result": "Not Spam", "confidence": 98.11}
-{"time": "2026-03-18 00:02:07.391157", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 00:05:13.808204", "type": "request", "ip": "127.0.0.1", "endpoint": "/"}
-{"time": "2026-03-18 00:05:20.323473", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-18 00:05:20.863076", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-18 00:05:39.675491", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 00:05:39.700085", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 00:06:11.946923", "type": "prediction", "user": "Deepthi", "message": "Win excititng prizes for free", "result": "Spam", "confidence": 99.32}
-{"time": "2026-03-18 00:06:11.869254", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 09:42:16.563779", "type": "request", "ip": "127.0.0.1", "endpoint": "/"}
-{"time": "2026-03-18 09:42:21.987556", "type": "request", "ip": "127.0.0.1", "endpoint": "/docs"}
-{"time": "2026-03-18 09:42:22.582799", "type": "request", "ip": "127.0.0.1", "endpoint": "/openapi.json"}
-{"time": "2026-03-18 09:43:20.209965", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 09:43:20.317993", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 09:43:27.159761", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:43:27.170749", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:43:27.181760", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:43:27.286825", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:43:51.486608", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 09:43:52.198944", "type": "prediction", "user": "Shiva", "message": "Get 1000 cash prize for free", "result": "Spam", "confidence": 100.0}
-{"time": "2026-03-18 09:43:51.501600", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 09:43:58.217498", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:43:58.270724", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:46:47.717476", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:46:47.802446", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:53:51.609628", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:53:51.623184", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:53:51.887866", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:53:52.124150", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:55:37.508385", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:55:37.917413", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:55:58.299576", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:55:58.443257", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:56:40.221703", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:56:40.291885", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:56:55.005279", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 09:56:55.028945", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 09:56:56.671788", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 09:56:58.658729", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 09:56:58.736804", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 10:06:28.052144", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 10:06:28.190038", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 10:06:41.655894", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:18:58.581996", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:18:58.657097", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:19:06.971464", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:19:20.648651", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:42:00.557884", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 10:42:00.615861", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 10:42:08.503639", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:42:08.510572", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:42:25.837803", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:43:52.868958", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:47:05.351489", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:05.351489", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:05.367945", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:05.418316", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:18.502679", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 10:47:18.836221", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:18.886695", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 10:47:40.590211", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 10:47:40.596220", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 10:47:40.603453", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 10:47:40.640238", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 11:00:30.969339", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:00:30.980345", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:00:31.061976", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:00:31.566118", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:00:47.859769", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:00:47.870546", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:01:12.048407", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:01:12.056822", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:01:12.066830", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:01:12.123747", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:03:17.267035", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:07:51.748856", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:07:52.074739", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:16:45.184641", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:16:45.244853", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:16:51.646821", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:16:51.649809", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:16:51.668378", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:16:51.755910", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:17:29.094590", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:17:32.414446", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:17:32.487977", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:24:34.232281", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:25:03.982948", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 11:25:03.989952", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
-{"time": "2026-03-18 11:25:10.246953", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:25:14.402220", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:25:14.475883", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:31:48.295350", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:31:48.334936", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:32:20.933091", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 11:32:21.183863", "type": "prediction", "user": "maheshk@gmail.com", "message": "Win exciting prizes for free", "result": "Spam", "confidence": 99.85}
-{"time": "2026-03-18 11:32:20.943613", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 11:32:40.000890", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:32:40.004905", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:32:40.018908", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:32:40.064156", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:41:20.409322", "type": "prediction", "user": "maheshk@gmail.com", "message": "Get ready for free ticket on Sunday", "result": "Not Spam", "confidence": 83.68}
-{"time": "2026-03-18 11:41:20.188123", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 11:41:37.831223", "type": "prediction", "user": "maheshk@gmail.com", "message": "get free voucher", "result": "Spam", "confidence": 95.71}
-{"time": "2026-03-18 11:41:37.825204", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 11:42:01.047673", "type": "prediction", "user": "maheshk@gmail.com", "message": "This is a car", "result": "Not Spam", "confidence": 99.41}
-{"time": "2026-03-18 11:42:01.010150", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 11:42:05.870805", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:05.940853", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:12.071948", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:12.125275", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:27.460279", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:27.503988", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 11:42:46.208330", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:42:46.221431", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 11:42:46.733841", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:42:46.736850", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:42:46.747847", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:42:46.797258", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 11:42:50.764598", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 11:42:50.764598", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 11:42:50.793008", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 11:42:50.888883", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 11:43:18.351538", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:20:55.813404", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:20:55.895363", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:20:56.544428", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:20:56.563863", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:20:56.573905", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:20:56.683762", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:35:55.830893", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:35:55.841618", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:35:55.925996", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:35:56.106119", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:36:09.371441", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:09.373443", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:09.386456", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:09.624795", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:42.279568", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:36:42.286550", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:36:42.620055", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:42.672712", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:36:51.455087", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:37:07.866058", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:37:07.874060", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:37:07.892510", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:37:07.965116", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:47:14.476725", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:47:14.598972", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:47:35.013009", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:47:35.324923", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:47:35.331935", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:47:35.341923", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:47:35.479245", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:48:27.469365", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:48:27.791497", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:48:27.866785", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:48:32.953729", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:48:32.955796", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:48:32.999190", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:48:33.071728", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:51:02.147694", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:51:02.267842", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:51:10.502240", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:51:10.619127", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 12:51:31.156307", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:51:31.237514", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 12:52:06.144506", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 12:52:09.268646", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:52:09.276690", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:52:09.293662", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 12:52:09.370693", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:00:25.771146", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:00:25.851276", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:00:34.169239", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:00:34.499273", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:00:34.507171", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:00:34.520913", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:00:34.617078", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:00:37.798766", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:00:37.803303", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:00:37.840842", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:00:37.869382", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:02:51.339768", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:02:51.573769", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:04:10.587816", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:04:10.858721", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:04:13.218744", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:04:13.390792", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:07:20.381361", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:07:20.534310", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:10:15.385411", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:10:15.520826", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:39.027004", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:39.049326", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:39.138571", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:39.737458", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:42.711763", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:52:42.722297", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:52:42.732604", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:52:42.764203", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:52:44.060224", "type": "request", "ip": "127.0.0.1", "endpoint": "/profile"}
-{"time": "2026-03-18 13:52:44.061219", "type": "request", "ip": "127.0.0.1", "endpoint": "/profile"}
-{"time": "2026-03-18 13:52:44.075512", "type": "request", "ip": "127.0.0.1", "endpoint": "/profile"}
-{"time": "2026-03-18 13:52:44.106323", "type": "request", "ip": "127.0.0.1", "endpoint": "/profile"}
-{"time": "2026-03-18 13:52:49.195972", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:52:49.230516", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:53:09.919991", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:55:33.959642", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:55:37.579026", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:55:37.593711", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:55:37.612339", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:55:37.763973", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:55:40.066960", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:55:40.130051", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:56:54.125974", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:56:57.825036", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:56:57.899263", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:57:14.732676", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 13:57:14.847324", "type": "prediction", "user": "234g1a3323@srit.ac.in", "ip": "127.0.0.1", "message": "Win cash prize", "result": "Spam", "confidence": 99.98}
-{"time": "2026-03-18 13:57:14.752623", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 13:57:22.979960", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:57:23.059246", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:57:34.786964", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:57:35.720837", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:57:35.814954", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:58:09.891049", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:58:09.976457", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:58:11.770215", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:58:11.834593", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:58:31.617652", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:58:43.907611", "type": "prediction", "user": "maheshk@gmail.com", "ip": "127.0.0.1", "message": "Welcome to the event", "result": "Not Spam", "confidence": 67.84}
-{"time": "2026-03-18 13:58:43.888996", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
-{"time": "2026-03-18 13:58:48.013463", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:58:48.075939", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
-{"time": "2026-03-18 13:58:56.782121", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
-{"time": "2026-03-18 13:58:57.676994", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:58:57.810598", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:59:28.546697", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:28.582868", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:32.481659", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/maheshk@gmail.com"}
-{"time": "2026-03-18 13:59:32.500660", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/maheshk@gmail.com"}
-{"time": "2026-03-18 13:59:32.625557", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:34.595425", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:59:34.666659", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 13:59:52.978447", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:53.008328", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:56.087341", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Shiva"}
-{"time": "2026-03-18 13:59:56.100342", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Shiva"}
-{"time": "2026-03-18 13:59:56.167517", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 13:59:58.700937", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Deepthi"}
-{"time": "2026-03-18 13:59:58.720481", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/Deepthi"}
-{"time": "2026-03-18 13:59:58.775331", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 14:00:01.259396", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 14:00:01.330250", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 14:00:19.367006", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 14:00:19.406004", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 14:00:20.307426", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 14:00:20.366017", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
-{"time": "2026-03-18 14:00:21.340155", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
-{"time": "2026-03-18 14:00:21.372887", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+ÿþ{"time": "2026-03-18 14:06:38.853563", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:06:38.875164", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:06:49.953183", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:06:49.953183", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:06:50.202768", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:06:50.302678", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:07:36.060352", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 14:07:36.070343", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 14:07:43.167520", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:07:43.177417", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:07:47.451169", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:07:47.460501", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:07:47.487302", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:07:47.597099", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:08:00.371890", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 14:08:00.431593", "type": "prediction", "user": "shiva@gmail.com", "ip": "127.0.0.1", "message": "What are you doing", "result": "Not Spam", "confidence": 99.97}
+{"time": "2026-03-18 14:08:00.382505", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 14:08:03.043575", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:08:03.077184", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:08:10.306153", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:08:11.413747", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:08:11.462288", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:08:52.777533", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:08:52.815556", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:08:54.532191", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:08:54.567013", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:16:06.553268", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 14:16:14.691280", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:22:02.495668", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:22:02.593795", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:22:05.714464", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:22:05.735190", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:22:05.750419", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:22:05.839236", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:31:59.633486", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:32:03.483979", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:03.550627", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:06.211658", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:06.221207", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:06.247258", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:06.314888", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:16.426739", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:32:16.442757", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:32:33.071111", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:33.124776", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:32:42.774315", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:32:43.827742", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:32:43.838744", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:32:43.849319", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:32:43.948897", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:32:51.536601", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:32:51.567483", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:32:51.581922", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:32:51.637152", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 14:32:56.147612", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:32:56.172382", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 14:33:18.953074", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:33:21.893319", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:33:21.920329", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:34:14.211114", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 14:34:16.660860", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:34:16.695489", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 14:57:21.625986", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 14:57:22.049250", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 15:09:31.300300", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 15:09:31.422109", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 15:09:39.650085", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 15:09:39.666239", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 15:09:56.966746", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 15:09:57.266249", "type": "prediction", "user": "bindusree@gmail.com", "ip": "127.0.0.1", "message": "Win a free lottery", "result": "Spam", "confidence": 94.48}
+{"time": "2026-03-18 15:09:56.984344", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 15:10:15.984267", "type": "prediction", "user": "bindusree@gmail.com", "ip": "127.0.0.1", "message": "I  am bindu", "result": "Not Spam", "confidence": 97.74}
+{"time": "2026-03-18 15:10:15.961567", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 15:10:29.842051", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 15:10:29.844056", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 15:10:29.877989", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 15:10:29.960032", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 15:10:49.672168", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 15:10:50.576986", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 15:10:50.585929", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 15:10:50.596558", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 15:10:50.661773", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
+{"time": "2026-03-18 15:11:12.708806", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 15:11:12.730873", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 15:11:12.777590", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 15:11:12.849130", "type": "request", "ip": "127.0.0.1", "endpoint": "/users"}
+{"time": "2026-03-18 15:11:22.057461", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/"}
+{"time": "2026-03-18 15:11:22.087216", "type": "request", "ip": "127.0.0.1", "endpoint": "/delete_user/"}
+{"time": "2026-03-18 15:13:06.237169", "type": "request", "ip": "127.0.0.1", "endpoint": "/register"}
+{"time": "2026-03-18 15:13:27.071203", "type": "request", "ip": "127.0.0.1", "endpoint": "/login"}
+{"time": "2026-03-18 15:14:16.720245", "type": "prediction", "user": "bindu", "ip": "127.0.0.1", "message": "you have won free coupons", "result": "Spam", "confidence": 82.24}
+{"time": "2026-03-18 15:14:16.700249", "type": "request", "ip": "127.0.0.1", "endpoint": "/predict"}
+{"time": "2026-03-18 15:14:42.506554", "type": "request", "ip": "127.0.0.1", "endpoint": "/health"}
+{"time": "2026-03-18 15:14:53.646230", "type": "request", "ip": "127.0.0.1", "endpoint": "/stats"}
+{"time": "2026-03-18 15:16:05.325571", "type": "request", "ip": "127.0.0.1", "endpoint": "/logs"}
