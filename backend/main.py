@@ -33,6 +33,21 @@ Base.metadata.create_all(bind=engine)
 if not os.path.exists("logs"):
     os.makedirs("logs", exist_ok=True)
 
+# Create default admin user if not exists
+db = SessionLocal()
+try:
+    admin_user = db.query(models.User).filter(models.User.username == "bindusree@gmail.com").first()
+    if not admin_user:
+        admin = models.User(
+            username="bindusree@gmail.com",
+            password=hash_password("bindusree"),
+            role="admin"
+        )
+        db.add(admin)
+        db.commit()
+finally:
+    db.close()
+
 app = FastAPI()
 
 app.add_middleware(
@@ -296,3 +311,5 @@ def get_logs(user=Depends(verify_token)):
 
     except FileNotFoundError:
         return {"logs": []}
+        #backend- uvicorn backend.main:app --reload
+        #frontend- npm start
